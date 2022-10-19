@@ -30,7 +30,7 @@ const Hero = ({
   const openModal = (e) => {
     e.preventDefault();
     setVideomodalactive(true);
-  }
+  } 
 
   const closeModal = (e) => {
     e.preventDefault();
@@ -60,12 +60,15 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+          <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+           <span className="text-color-primary">Komputerkomputer.dk</span>
+            </h1>
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+           <span className="text-color-primary">ASM</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              ASM, produkt udvikling og kodning af java back -and front-end systemer med databaser, styling og mere. Alt i alt "Simpelthen kreative udvilkingmetoder i både systemer og produkter, med kode design og 3D CAD tegning.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -79,19 +82,22 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div style={{border: '50px solid black'}} className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
+              // data-Image="https://player.vimeo.com/video/174002812"
+              // href="#0"
+              // aria-controls="video-modal"
+              // onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/Bicycle_assembly_2022-Oct-05_07-18-48AM-000_CustomizedView7312917000_png.png')}
                 alt="Hero"
                 width={896}
-                height={504} />
+                height={693}
+                border-radius={50}
+                border-Bottom={500} />
+
             </a>
           </div>
           <Modal

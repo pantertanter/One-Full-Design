@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Introduktion',
+    paragraph: 'Det her er et simpelt portfolio i hvilket jeg ønsker at udstille, "Simple 3D CAD tegninger", systemer jeg har kreeret og alle mulige forskellige andre ting som jeg føler mig sikker i at udvikle i fremtiden. For at du skal få en god idé for hvad der kan blive kreeret/designet/udviklet. Håber jeg at du vil føle dig fri til at udforske siderne, eksempler og billeder lige så meget som du har lyster for og læse og skrive mig en email fx. gennem (send email) formularen og knappen på kontakt formular siden.'
   };
 
   return (
